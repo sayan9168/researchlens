@@ -1,8 +1,10 @@
 <div align="center">
 
+<img src="./sayan-mahata-sayan9168.jpg" alt="Sayan Mahata - Sayan The Researcher" width="180" height="180" style="border-radius:50%; border:4px solid #38bdf8; box-shadow:0 0 30px rgba(56,189,248,0.5);" />
+
 # 🔬 ResearchLens
 
-### *Discover the World of Research 
+### *Discover the World of Research — এক নতুন দৃষ্টিতে*
 
 ![ResearchLens Banner](https://img.shields.io/badge/ResearchLens-Explore%20Research-38bdf8?style=for-the-badge&logo=researchgate&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
@@ -158,6 +160,8 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 ## 👤 Author
 
 <div align="center">
+
+<img src="./sayan-mahata-sayan9168.jpg" alt="Sayan Mahata" width="130" style="border-radius:50%; border:3px solid #a855f7;" />
 
 ### Sayan Mahata
 **Sayan The Researcher** | Researcher & Software Developer

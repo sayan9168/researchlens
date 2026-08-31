@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchLens | Sayan The Researcher</title>
+    <meta name="description" content="ResearchLens - An intelligent research discovery tool by Sayan Mahata (sayan9168). Explore millions of research papers, citations and trends.">
+    <meta name="author" content="Sayan Mahata">
+    <meta property="og:title" content="ResearchLens | Sayan The Researcher">
+    <meta property="og:description" content="Explore millions of research papers, citations and trends.">
+    <meta property="og:image" content="https://sayan9168.github.io/sayan-mahata-sayan9168.jpg">
+    <meta property="og:url" content="https://sayan9168.github.io/researchlens/">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ResearchLens",
+      "applicationCategory": "ResearchTool",
+      "operatingSystem": "Web",
+      "author": { "@type": "Person", "name": "Sayan Mahata", "alternateName": "sayan9168" },
+      "url": "https://sayan9168.github.io/researchlens/"
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><i class="fas fa-microscope"></i> ResearchLens<span>.</span></div>
+        <div class="credit">by <strong>Sayan The Researcher</strong></div>
+    </header>
+
+    <section class="hero">
+        <h1>Discover the World of <span class="grad">Research</span></h1>
+        <p class="subtitle">Search millions of scholarly papers, analyze citations & explore trends — powered by OpenAlex.</p>
+    </section>
+
+    <section class="search-panel">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search-input" placeholder="e.g. Artificial Intelligence, Quantum Computing..." />
+            <button id="search-btn">Explore</button>
+        </div>
+        <div class="filters">
+            <select id="year-from"><option value="">From Year</option></select>
+            <select id="year-to"><option value="">To Year</option></select>
+            <select id="sort-by">
+                <option value="relevance_score:desc">Relevance</option>
+                <option value="cited_by_count:desc">Most Cited</option>
+                <option value="publication_year:desc">Newest</option>
+            </select>
+        </div>
+    </section>
+
+    <section class="stats-bar">
+        <div class="stat"><h3 id="stat-total">0</h3><p>Papers Found</p></div>
+        <div class="stat"><h3 id="stat-cited">0</h3><p>Total Citations</p></div>
+        <div class="stat"><h3 id="stat-year">-</h3><p>Latest Year</p></div>
+        <div class="stat"><h3 id="stat-oa">0%</h3><p>Open Access</p></div>
+    </section>
+
+    <section class="chart-panel">
+        <h2><i class="fas fa-chart-line"></i> Publication Trend</h2>
+        <div class="chart-wrap"><canvas id="trend-chart"></canvas></div>
+    </section>
+
+    <section class="results-section">
+        <h2><i class="fas fa-book-open"></i> Results</h2>
+        <div id="loader" class="loader hidden"><div class="spinner"></div><p>Analyzing research database...</p></div>
+        <div id="results" class="results-grid"></div>
+        <div id="empty-state" class="empty-state">
+            <i class="fas fa-flask"></i>
+            <p>Enter a topic above to start exploring research.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with <i class="fas fa-heart"></i> by <strong>Sayan Mahata</strong> (sayan9168) | Sayan The Researcher</p>
+        <p>Data powered by <a href="https://openalex.org" target="_blank">OpenAlex</a> | &copy; 2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+  </html>

@@ -4,7 +4,7 @@
 
 # 🔬 ResearchLens
 
-### *Discover the World of Research — এক নতুন দৃষ্টিতে*
+### Discover the World of Research 
 
 ![ResearchLens Banner](https://img.shields.io/badge/ResearchLens-Explore%20Research-38bdf8?style=for-the-badge&logo=researchgate&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)

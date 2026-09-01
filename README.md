@@ -192,6 +192,6 @@ If you found **ResearchLens** useful, please consider giving this repository a �
 
 **Made with ❤️ by [Sayan Mahata](https://sayan9168.github.io) | © 2026 ResearchLens**
 
-`#Research` `#OpenAlex` `#DataVisualization` `#SayanTheResearcher` '#sayan9168'
+`#Research` `#OpenAlex` `#DataVisualization` `#SayanTheResearcher` 
 
 </div>
